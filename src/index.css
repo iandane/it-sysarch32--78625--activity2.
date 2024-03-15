@@ -1,0 +1,74 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif; /*  font of Arial */
+  background-color: #08d0eb31; /*  background color of header  */
+  color: rgb(17, 16, 16); /*  text color header */
+}
+
+.title {
+  margin: 20px;
+  font-size: 2.5em;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: rgb(15, 15, 15); /* color link on nav */
+  font-size: 2.2em;
+}
+
+.nav-bar a:hover {
+  color: #25693a;
+}
+
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 25px;
+  max-width: 150px;
+  max-height: 350px;
+  padding: 20px;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(29, 9, 214, 0.2);
+  text-align: center;
+}
+
+.card img {
+  width: auto;
+  max-height: 50%;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+
+.card:last-child {
+  margin-right: auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: url(https://imgs.search.brave.com/9cnTPO2owFvdXowOYobFtc6LH8dFPv0VoOOHTwiOq4E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE1/MDkyMTM1MS9waG90/by9waW5rLXRleHR1/cmUtYmFja2dyb3Vu/ZC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9UmdoNXNJUkRu/NlJIZ1FDdVdhWEI2/LUNvVWViZnRhWEFP/WVlGRkFQRjE5ST0); /* Change to your background image */
+  background-size: cover; /*  background size footer */
+  padding: 2px;
+  text-align: center;
+  font-size: 18px;
+}
